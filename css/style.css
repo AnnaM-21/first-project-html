@@ -1,0 +1,553 @@
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'dosisextralight';
+    src: url('../fonts/dosis-variablefontwght-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-variablefontwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p, blockquote, body {
+    margin: 0;
+    font-size: 1em;
+}
+/* h2 {
+    font-size: ;
+} */
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.raw {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+.col-4 {
+    width: 33.3%;
+    padding: 0 20px;
+}
+.section {
+    padding: 140px 0;
+}
+.section-title {
+    font-family: 'dosisextralight';
+    font-size: 18px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.section-about {
+    margin-bottom: 80px;
+}
+.col-4 blockquote {
+    font-family: 'open_sanslight';
+    font-size: 24px;
+    color: gray;
+}
+.margin-bottom {
+    margin-bottom: 34px;
+}
+.padding-bottom {
+    padding-bottom: 107px;;
+}
+.col-4 p {
+    font-family: 'open_sanslight';
+    font-size: 15px;
+    color: gray;
+} 
+.wrapper-head {
+    background-image: url(../img/img-1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-right ul {
+    display: flex;
+    padding: 0;
+    margin: 0 -17px 0 0;
+    
+}
+.nav-right ul li {
+    list-style: none;
+}
+.nav-right ul li a {
+    font-family: 'open_sansregular';
+    text-decoration: none;
+    color: #fff;
+    padding: 0 17px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 0;
+}
+.container-title-head {
+    max-width: 841px;
+    margin: 0 auto;
+}
+.inner-title-head {
+    text-align: center;
+    height: 100vh;
+}
+/* .inner-title-head::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+} */
+.title-head {
+    display: inline-block;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* margin-top: -79px; */
+    padding-top: 247px;
+    padding-bottom: 326px;
+}
+.title {
+    font-family: 'dosisextralight';
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 47px;
+    padding-bottom: 102px;
+    display: inline-block;
+}
+.title-text {
+    font-family: 'open_sanslight';
+    font-size: 19px;
+    color: #fff;
+    display: inline-block;
+    padding-bottom: 102px;
+}
+.col-4 span {
+    font-size: 12px;
+    color: gray;
+}
+.text-transform {
+    text-transform: uppercase;
+}
+.text-name {
+    font-family: 'dosisextralight';
+    text-align: center;
+    letter-spacing: 3px;
+}
+.border-bottom {
+    border-bottom: 2px solid gray;
+    padding: 0 0;
+}
+.text-align {
+    text-align: center;
+}
+.img-model {
+    padding-bottom: 30px;
+}
+.text-services {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+.tabs {
+    display: flex;
+    justify-content: space-around;
+}
+.tabs, .portfolio-tabs  li {
+    list-style: none;
+    text-align: center;
+}
+.tabs li a, .portfolio-tabs li a {
+    text-decoration: none;
+    color: #a7a7a7;
+}
+.tabs img {
+    padding-bottom: 36px;
+}
+.ui-tabs-nav {
+    padding:0 0 78px 0;
+    margin: 0;
+}
+.ui-state-active a {
+    color: black;
+}
+.back-digital-services {
+    background-color: #000;
+    color: #fff;
+}
+.digital-services {
+    display: flex;
+    justify-content: space-between;
+}
+.digital-title {
+    padding-bottom: 29px;
+}
+.col-6 {
+    width: 50%;
+    padding-bottom: 18px;
+}
+.digital-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.digital-services-text {
+    color: #b2b2b2;
+    font-size: 15px;
+    font-family: 'open_sanslight';
+    padding-bottom: 44px;
+}
+
+.btn-like {
+    font-family: 'open_sansregular';
+    font-size: 14px;
+    color: #000;
+    background-color: #cfcfcf;
+    text-transform: uppercase;
+    height: 40px;
+    width: 214px;
+    letter-spacing: 2px;
+    border-radius: 3px;
+}
+.digital-img {
+    position: relative;
+    top: -33px;
+    left: 57px;
+}
+.container-portfolio {
+    max-width: 752px;
+    margin: 0 auto;
+}
+.portfolio-text {
+    text-align: center;
+    font-family: 'open_sanslight';
+    font-size: 15px;
+    color: gray; 
+}
+.section-portfolio {
+    padding-bottom: 80px;
+}
+.portfolio-tabs {
+display: flex;
+justify-content: center;
+padding-bottom: 52px;
+
+}
+.portfolio-tabs a {
+    font-family: 'dosisextralight';
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 0 32px;
+    letter-spacing: 5px;
+}
+.portfolio-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -3px 0 -3px;
+}
+.portfolio-img-padding {
+    padding: 0 3px 0 3px;
+}
+.portfolio-img img {
+    width: 100%;
+    height: 100%;
+}
+.portfolio-img {
+filter: grayscale(100%);
+}
+.portfolio-img:hover {
+    filter: grayscale(0);
+}
+.wrapper-like {
+    background-color: #000;
+}
+.container-like {
+    max-width: 333px;
+    margin: 0 auto;
+}
+.like-text {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'dosisextralight';
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    padding: 72px 0 25px 0;
+}
+.button-like {
+    padding: 0px 59px 69px 59px;
+}
+.choose-card {
+    display: flex;
+}
+.choose-align {
+    text-align: center;
+}
+.choose-title {
+    font-family: 'dosisextralight';
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 35px 0;
+}
+.choose-padding {
+    padding-bottom: 86px;
+}
+.people-say {
+    background-color: #000;
+    color: #fff;
+  
+}
+.slider-say {
+    max-width: 676px;
+    margin: 0 auto;
+    position: relative;
+    left: 25%;
+}
+.slider-title {
+    padding: 140px 0 45px 0;
+}
+.say-text {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'open_sanslight';
+    color: #d4d4d4;
+    padding-bottom: 31px;
+}
+.say-span {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'open_sansregular';
+    font-size: 11px;
+    color: #757575;
+    letter-spacing: 3px;
+    padding-bottom: 108px;
+}
+.all-news a {
+    font-family: 'dosisextralight';
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #757575;
+    text-decoration: none;
+}
+.news-title {
+    display: flex;
+    justify-content: space-between;
+}
+.news-card {
+display: flex;
+justify-content: space-between;
+}
+.news-img {
+    padding-bottom:30px;
+}
+.news-padding {
+    padding: 0 15px 0 15px;
+}
+.news-margin-left {
+    margin-left: -15px;
+}
+.news-margin-right {
+    margin-right: -15px;
+}
+.news-img img {
+width: 100%;
+}
+.news-name  h3{
+    font-family: 'dosisextralight';
+    font-size: 15px;
+    color: #777777;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-bottom: 18px;
+}
+.news-author {
+padding-bottom: 26px;
+}
+.news-author span {
+    font-family: 'dosisextralight';
+    font-size: 11px;
+    color: #757575;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+}
+.news-text p {
+    font-family: 'open_sanslight';
+    font-size: 15px;
+    color: #9b9b9b;
+    padding-bottom: 25px;
+}
+.btn-news {
+    font-family: 'open_sansregular';
+    font-size: 11px;
+    color: #777777;
+    background-color: #e5e5e5;
+    text-transform: uppercase;
+    height: 26px;
+    width: 118px;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    border: none;
+}
+.wrapper-informed {
+    background-color: #f8f8f8;
+}
+.container-informed {
+    max-width: 428px;
+    margin: 0 auto;
+}
+.section-informed {
+    padding: 82px 0;
+}
+.section-title-2 h2 {
+    font-family: 'dosisextralight';
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.section-email {
+  display: flex; 
+  padding-top: 21px;
+}
+input {
+    display: inline-block;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    border-radius: 4px;
+    height: 36px;
+    vertical-align: middle;
+    width: 100%;
+}
+.email-here {
+    flex-grow: 1;
+    padding-right: 5px;
+}
+input::placeholder {
+    font-size: 12px;
+    color: #777777;
+    padding: 0 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+} 
+.btn {
+    font-family: 'open_sansregular';
+    display: inline-block;
+    border: 1px solid #000;
+    background-color: #000;
+    height: 36px;;
+    color: #fff;
+    width: 128px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+.section-text {
+    font-family: 'open_sansregular';
+    font-size: 11px;
+    color: #aaaaaa;
+    text-align: center;
+    padding-top: 21px;
+}
+.container-contact {
+    margin: 0 auto;
+    max-width: 770px;
+}
+.section-contact {
+    padding: 140px 0;
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+ul, p {
+    padding: 0;
+    margin: 0;
+}
+h3 {
+    padding-bottom: 14px;
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: 'dosisextralight';
+}
+.text-call p {
+    font-size: 15px;
+    font-family: 'open_sanslight';
+}
+.col-4-contact {
+    max-width: 33%;
+    margin: 0 ;
+    display: flex;
+    
+}
+.text-call {
+    text-align: left;
+}
+.contact-information {
+    display: flex;
+    justify-content: space-between;
+    padding: 98px 0 83px 0;
+}
+.contact-img {
+    padding: 9px 14px 9px 0;
+}
+.contact-title {
+    font-family: 'dosisextralight';
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+.col-6 {
+    max-width: 50%;
+    margin: 0 ; 
+    flex-grow: 1; 
+}
+.contact-form {
+    display: flex;
+    padding-bottom: 20px;
+}
+.name {
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+.email {
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.massage {
+    padding-left: 5px;
+}
+.massage input {
+    height: 82px;
+}
+.contact-description {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-default {
+    width: 182px;
+}
+.span-padding {
+    padding: 10px 0;
+}
